@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>      
+       <record model="ir.ui.view" id="view_account_analytic_account_on_site_product">
+            <field name="name">account_analytic_account_on_site_product</field>
+            <field name="model">account.analytic.account</field>
+            <field name="inherit_id" ref="account_analytic_account_improvements.account_analytic_account_improvements"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='contract_team']" position="after">
+                    <field name ="on_site_product"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>
