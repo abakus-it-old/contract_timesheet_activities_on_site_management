@@ -1,5 +1,5 @@
 ﻿{
-    'name': "AbAKUS contract improvements",
+    'name': "AbAKUS OS/SD contract improvements",
     'version': '1.0',
     'depends': ['account_analytic_analysis','account_analytic_account_improvements'],
     'author': "Bernard DELHEZ, AbAKUS it-solutions SARL",
