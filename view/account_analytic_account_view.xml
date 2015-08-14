@@ -8,6 +8,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='contract_team']" position="after">
                     <field name ="on_site_product"/>
+                    <field name ="on_site_product_price"/>
                 </xpath>
             </field>
         </record>
