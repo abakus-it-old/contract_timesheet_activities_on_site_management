@@ -13,5 +13,6 @@ This module has been developed by Bernard Delhez, intern @ AbAKUS it-solutions, 
              'view/project_issue_view.xml',
              'view/project_task_view.xml',
              'view/account_analytic_line.xml',
+             'view/hr_timesheet_sheet_view.xml',
     ],
 }
