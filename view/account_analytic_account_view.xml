@@ -2,14 +2,20 @@
 <openerp>
 	<data>      
        <record model="ir.ui.view" id="view_account_analytic_account_on_site_product">
-            <field name="name">account_analytic_account_on_site_product</field>
-            <field name="model">account.analytic.account</field>
-            <field name="inherit_id" ref="account_analytic_account_improvements.account_analytic_account_improvements"/>
+            <field name="name">sale_subscription_on_site_product</field>
+            <field name="model">sale.subscription</field>
+            <field name="inherit_id" ref="sale_contract.sale_subscription_view_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='contract_team']" position="after">
-                    <field name ="on_site_product"/>
-                    <field name ="on_site_invoice_by_km"/>
-                    <field name ="on_site_distance_in_km"/>
+                <xpath expr="//page[@id='settings']" position="after">
+                    <page string="On Site Settings" id="on_site_settings">
+                        <group>
+                            <group>
+                                <field name ="on_site_product"/>
+                                <field name ="on_site_invoice_by_km"/>
+                                <field name ="on_site_distance_in_km"/>
+                            </group>
+                        </group>
+                    </page>
                 </xpath>
             </field>
         </record>
