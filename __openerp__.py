@@ -1,6 +1,6 @@
 ﻿{
     'name': "AbAKUS OS/SD contract improvements",
-    'version': '1.0',
+    'version': '9.0.1.0',
     'depends': [
                 'hr_timesheet_sheet',
                 'project_issue',
