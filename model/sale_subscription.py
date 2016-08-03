@@ -1,6 +1,6 @@
-﻿from openerp import models, fields, api
+﻿from openerp import models, fields
 
-class account_analytic_account_improvements(models.Model):
+class sale_subscription_improvements(models.Model):
     _inherit = ['sale.subscription']
     
     on_site_product = fields.Many2one('product.product', string="Travel Product", index=True, help="Product that will be used to compute the price of the travel when the work is done on site.")

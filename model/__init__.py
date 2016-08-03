@@ -1,2 +1,2 @@
-﻿from . import account_analytic_account
+﻿from . import sale_subscription
 from . import account_analytic_line
